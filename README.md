@@ -62,8 +62,5 @@ Como não existe nenhum exemplo de prova disponível, vou me guiar pelos objetiv
 # webinars
 Links para Webinars da Elastic com informações e questões simuladas.
 
-## webinar 2019-01 (versão 6.5)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dzo_uR3IsbQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## webinar 2019-04 (versão 7.2)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hsaLZSKCkF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- [webinar 2019-08 (versão 7.2)](https://youtu.be/hsaLZSKCkF0)
+- [webinar 2019-01 (versão 6.5)](https://youtu.be/dzo_uR3IsbQ)
