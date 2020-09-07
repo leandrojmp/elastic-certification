@@ -4,11 +4,16 @@ Repositório para armazenar notas e dicas durante o estudo auto-guiado para o [E
 
 Como não existe nenhum exemplo de prova disponível, vou me guiar pelos objetivos presentes na [descrição da certificação](https://www.elastic.co/training/elastic-certified-engineer-exam) e nos exemplos dos webinars feitos pela elastic até agora.
 
-# objetivos
+Durante a prova de certificação, apenas a documentação oficinal pode ser consultada e atualmente a versão utilizada é a versão `7.2`.
+
+Documentação Oficial: [https://www.elastic.co/guide/en/elasticsearch/reference/7.2/index.html](https://www.elastic.co/guide/en/elasticsearch/reference/7.2/index.html)
+
+
+# Objetivos
 
 ## Installation and Configuration
 
-- [ ] Deploy and start an Elasticsearch cluster that satisfies a given set of requirements
+- [x] Deploy and start an Elasticsearch cluster that satisfies a given set of requirements
 - [ ] Configure the nodes of a cluster to satisfy a given set of requirements
 - [ ] Secure a cluster using Elasticsearch Security
 - [ ] Define role-based access control using Elasticsearch Security
