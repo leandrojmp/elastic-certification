@@ -9,10 +9,10 @@ Como não existe nenhum exemplo de prova disponível, vou me guiar pelos objetiv
 
 ## Installation and Configuration
 
-- Deploy and start an Elasticsearch cluster that satisfies a given set of requirements
-- Configure the nodes of a cluster to satisfy a given set of requirements
-- Secure a cluster using Elasticsearch Security
-- Define role-based access control using Elasticsearch Security
+- [] Deploy and start an Elasticsearch cluster that satisfies a given set of requirements
+- [] Configure the nodes of a cluster to satisfy a given set of requirements
+- [] Secure a cluster using Elasticsearch Security
+- [] Define role-based access control using Elasticsearch Security
 
 ## Indexing Data
 
