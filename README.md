@@ -1,9 +1,8 @@
 # elastic-certification
 
-## pt-br
 Repositório para armazenar notas e dicas durante o estudo auto-guiado para o [Elastic Certified Engineer Exam](https://www.elastic.co/training/elastic-certified-engineer-exam)
 
-Como não existe nenhum exemplo de prova disponível, vou me guiar pelos objetivos presentes na [descrição da certificação](https://www.elastic.co/training/elastic-certified-engineer-exam).
+Como não existe nenhum exemplo de prova disponível, vou me guiar pelos objetivos presentes na [descrição da certificação](https://www.elastic.co/training/elastic-certified-engineer-exam) e nos exemplos dos webinars feitos pela elastic até agora.
 
 # objetivos
 
