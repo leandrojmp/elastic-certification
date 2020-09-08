@@ -48,14 +48,14 @@ Será criado um diretório chamado `elasticsearch-7.2.1`, para simplificar iremo
 $ mv elasticsearch-7.2.1 elasticsearch
 ```
 
-Agora vamos configurar o primeiro nó, chamado de **es01** como apenas `master` e pertencente ao cluster chamado `cluster-es`, para isso editamos o arquivo `elasticsearch.yml` dentro do diretório `config`.
+Agora vamos configurar o primeiro nó, chamado de `es01`, como apenas `master` e pertencente ao cluster chamado `cluster-es`, para isso editamos o arquivo `elasticsearch.yml` dentro do diretório `config`.
 
 ```
 $ cd elasticsearch
 $ vim config/elasticsearch.yml
 ```
 
-`elasticsearcy.yml` do nó **es01**:
+`elasticsearcy.yml` do nó `es01`:
 ```
 cluster.name: cluster-es
 node.name: es01
@@ -72,16 +72,16 @@ cluster.remote.connect: false
 - `node.name`: define o nome do nó. [doc](https://www.elastic.co/guide/en/elasticsearch/reference/7.2/node.name.html)
 - `discovery.seed_hosts`: define quais os hosts que são elegíveis a master no cluster. [doc](https://www.elastic.co/guide/en/elasticsearch/reference/7.2/discovery-settings.html)
 - `cluster.initial_master_nodes`: define quais os hosts elegíveis a master participam da eleição inicial do cluster. [doc](https://www.elastic.co/guide/en/elasticsearch/reference/7.2/discovery-settings.html)
-- `network.host`: indica qual o ip a instância irá utilizar. [doc](www.elastic.co/guide/en/elasticsearch/reference/7.2/modules-network.html)
+- `network.host`: indica qual o ip a instância irá utilizar. [doc](https://www.elastic.co/guide/en/elasticsearch/reference/7.2/modules-network.html)
 - `node.master`: indica se o nó pode ser do tipo master. [doc](https://www.elastic.co/guide/en/elasticsearch/reference/7.2/modules-node.html)
 - `node.data`: indica se o nó pode ser do tipo data. [doc](https://www.elastic.co/guide/en/elasticsearch/reference/7.2/modules-node.html)
 - `node.ingest`: indica se o nó pode ser do tipo ingest. [doc](https://www.elastic.co/guide/en/elasticsearch/reference/7.2/modules-node.html)
 - `node.ml`: indica se o nó pode ser do tipo ml (machine learning). [doc](https://www.elastic.co/guide/en/elasticsearch/reference/7.2/modules-node.html)
 - `cluster.remote.connect`: habilita ou desabilita a busca cross-cluster. [doc](https://www.elastic.co/guide/en/elasticsearch/reference/7.2/modules-node.html)
 
-Repetindo o processo para o segundo nó, chamado de **es02** configrado como apenas do tipo `data` e pertencente ao cluster chamado `cluster-es`, teremos o seguinte arquivo de config.
+Repetindo o processo para o segundo nó, chamado de `es02`, configurado como apenas do tipo `data` e pertencente ao cluster chamado `cluster-es`, teremos o seguinte arquivo de config.
 
-`elasticsearcy.yml` do nó **es02**:
+`elasticsearcy.yml` do nó `es02`:
 ```
 cluster.name: cluster-es
 node.name: es02
