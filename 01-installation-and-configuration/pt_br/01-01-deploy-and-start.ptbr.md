@@ -1,4 +1,4 @@
-## Deploy and start an Elasticsearch cluster that satisfies a given set of requirements
+# Deploy and start an Elasticsearch cluster that satisfies a given set of requirements
 
 Esse objetivo indica que você deve saber como realizar a instalação e incialização de um cluster Elasticsearch que atenda um determinado conjunto de requisitos.
 
@@ -6,7 +6,7 @@ Um cluster Elasticsearch consiste de um ou mais nós `elasticsearch` com a mesma
 
 Os requisitos solicitados podem estar relacionados a configurações específicas do cluster e dos nós, por exemplo nome dos nós, nome do cluster, tipo de nós, nó master, quantidade de masters etc.
 
-### Instalação
+## Instalação
 
 A [documentação][doc-install] referente a instalação pode ser encontrada buscando pela palavra **Install** na barra de pesquisa.
 
@@ -26,7 +26,7 @@ Existe também a opção de se utilizar o elasticsearch através de containers `
 
 Devido as restrições de tempo e acesso para a certificação e ao que foi exibido nos webinars, acredito que não será necessário realizar a instalação do elasticsearch, apenas saber como iniciar manualmente a instância e suas principais configurações.
 
-### Exemplo
+## Exemplo
 
 Nesse exemplo vamos criar um cluster com dois nós, sendo que um deles será apenas master e o outro apenas nó de dados, para isso iremos instalar utilizando os arquivos `.tar.gz` em um sistema `CentOS` versão `7.8`, onde foi criado um usuário chamado **elastic** para esse processo.
 
