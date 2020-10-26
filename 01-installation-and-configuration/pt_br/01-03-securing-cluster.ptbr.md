@@ -124,4 +124,4 @@ O procedimento é semelhante e é descrito nesse link da [documentação oficial
 
 [secure-cluster]: https://www.elastic.co/guide/en/elasticsearch/reference/7.2/secure-cluster.html
 [tutorial]: https://www.elastic.co/guide/en/elasticsearch/reference/7.2/encrypting-internode-communications.html
-[secure-cliente]: https://www.elastic.co/guide/en/elasticsearch/reference/7.2/configuring-tls.html#tls-http
+[secure-client]: https://www.elastic.co/guide/en/elasticsearch/reference/7.2/configuring-tls.html#tls-http
