@@ -20,7 +20,7 @@ Documentação Oficial: [https://www.elastic.co/guide/en/elasticsearch/reference
 
 ## Indexing Data
 
-- [ ] Define an index that satisfies a given set of requirements
+- [x] Define an index that satisfies a given set of requirements
 - [ ] Perform index, create, read, update, and delete operations on the documents of an index
 - [ ] Define and use index aliases
 - [ ] Define and use an index template for a given pattern that satisfies a given set of requirements
