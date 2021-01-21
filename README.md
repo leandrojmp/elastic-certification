@@ -22,7 +22,7 @@ Documentação Oficial: [https://www.elastic.co/guide/en/elasticsearch/reference
 
 - [x] Define an index that satisfies a given set of requirements
 - [x] Perform index, create, read, update, and delete operations on the documents of an index
-- [ ] Define and use index aliases
+- [x] Define and use index aliases
 - [ ] Define and use an index template for a given pattern that satisfies a given set of requirements
 - [ ] Define and use a dynamic template that satisfies a given set of requirements
 - [ ] Use the Reindex API and Update By Query API to reindex and/or update documents
